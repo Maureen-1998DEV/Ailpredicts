@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+*{
+margin: 0%;
+padding: 0%;
+
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 200px;
+    color: rgb(241, 16, 8);
+
+}
+h2,h3{
+    color: rgb(28, 56, 212);
+    font-family: 'Open Sans', sans-serif;
+font-size:50px;
+
+}
+body{
+    background-image: url('/assets/back.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.part-one{
+    background-color: rgba(210, 217, 226, 0.7);
+    height: 100vh;
+     filter: brightness(40%);
+ }
